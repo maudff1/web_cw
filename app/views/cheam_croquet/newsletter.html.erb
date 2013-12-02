@@ -1,3 +1,22 @@
-<h1> Newsletter <h1>
-  
-<%= @tasks %>
+<h1> Newsletter </h1>
+       
+ <% @task_year.each do |year,tasks| %>
+       <table>
+  <thead>
+    <tr>
+      <th>Year <strong><%= year %> </strong></th>
+      <th> </th>
+    </tr>
+    </thead>
+     <tbody>
+       <tr>
+  <% tasks.each do |task| %>
+    <td> <strong><%= link_to task.title, task.pdf_url.to_s , :download => task.title%></strong> </td>
+       </tr>
+       </tbody>
+     <% end %>
+         </table>
+  <% end %>
+   
+    
+    

@@ -19,9 +19,13 @@ class CheamCroquetController < ApplicationController
     @Title = "Links to Croquet Site"
   end 
   
-  def newsletters 
+  def newsletter 
     @tasks = Newsletter.all
-    looger.info "debug: #{@task}"
     @task_year = @tasks.group_by{|t| t.date.year}
   end 
+  
+  def club_matters
+  end
+  def what_you_need
+  end
 end

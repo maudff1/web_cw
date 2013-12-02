@@ -45414,3 +45414,4817 @@ Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:
 
 
 Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 02:36:31 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 02:49:24 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+Completed 500 Internal Server Error in 48ms
+
+NameError (undefined local variable or method `looger' for #<CheamCroquetController:0x00000005f1fd38>):
+  app/controllers/cheam_croquet_controller.rb:24:in `newsletter'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.6ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 02:50:48 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.6ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 441ms (Views: 422.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:49 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 02:50:50 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 02:51:45 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `year' for #<Newsletter:0x007f56206fc1b0>):
+    3:  <% @task_year.each do |year,tasks| %>
+    4:   <% tasks.each do |task| %>
+    5:   <div class = "newsletter">
+    6:     <strong><% task.year %> </strong>
+    7:     <strong> <% task.pdf_url.to_s %> </strong>
+    8:   </div>
+    9:     
+  app/views/cheam_croquet/newsletter.html.erb:6:in `block (2 levels) in _app_views_cheam_croquet_newsletter_html_erb___2314876160385024493_70003944091540'
+  app/views/cheam_croquet/newsletter.html.erb:4:in `each'
+  app/views/cheam_croquet/newsletter.html.erb:4:in `block in _app_views_cheam_croquet_newsletter_html_erb___2314876160385024493_70003944091540'
+  app/views/cheam_croquet/newsletter.html.erb:3:in `each'
+  app/views/cheam_croquet/newsletter.html.erb:3:in `_app_views_cheam_croquet_newsletter_html_erb___2314876160385024493_70003944091540'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.4ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 02:52:24 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (63.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 99ms (Views: 97.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 02:52:25 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 02:56:36 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 32.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 02:56:36 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 02:56:36 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 02:56:36 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 02:56:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:36 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 02:56:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 02:56:37 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 02:58:05 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 35.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 02:58:05 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 02:58:05 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 02:58:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 02:58:06 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (17.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 104.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:00 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:00:01 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:00:27 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:01:19 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:20 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:20 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:20 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:20 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:20 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:20 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:01:20 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 30.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:28 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:29 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:29 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:29 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:29 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:29 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:29 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:01:29 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:50 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:01:51 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:04:58 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:04:59 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:05:00 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:42 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:07:43 +0000
+
+
+Started GET "/admin" for 131.227.33.173 at 2013-12-02 03:09:41 +0000
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/page/index.html.arb (139.9ms)
+Completed 200 OK in 219ms (Views: 142.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:41 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:41 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:41 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:41 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:41 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:41 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:42 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:42 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:42 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:42 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:42 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:42 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:42 +0000
+
+
+Started GET "/admin/newsletters" for 131.227.33.173 at 2013-12-02 03:09:44 +0000
+Processing by Admin::NewslettersController#index as HTML
+  [1m[35mAdminUser Load (0.3ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "newsletters"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters" ORDER BY "newsletters"."id" desc LIMIT 30 OFFSET 0[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/index.html.arb (174.1ms)
+Completed 200 OK in 185ms (Views: 177.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/orderable.png" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon.png" for 131.227.33.173 at 2013-12-02 03:09:45 +0000
+
+
+Started GET "/admin/newsletters/new" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+Processing by Admin::NewslettersController#new as HTML
+  [1m[35mAdminUser Load (0.3ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/new.html.arb (115.0ms)
+Completed 200 OK in 122ms (Views: 119.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:09:49 +0000
+
+
+Started POST "/admin/newsletters" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+Processing by Admin::NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dkUoxdlumFOSF90aDpv3Gp83HfASheBU4RLdkc8qvf0=", "newsletter"=>{"title"=>"ffgfgg", "date(1i)"=>"2008", "date(2i)"=>"3", "date(3i)"=>"3", "pdf"=>#<ActionDispatch::Http::UploadedFile:0x00000005e4a4d0 @tempfile=#<Tempfile:/tmp/RackMultipart20131202-1140-14kfemw>, @original_filename="CV - Ade Oladejo.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"newsletter[pdf]\"; filename=\"CV - Ade Oladejo.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Create Newsletter"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1[0m
+Unpermitted parameters: utf8, authenticity_token, commit
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "newsletters" ("created_at", "date", "pdf", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 02 Dec 2013 03:10:09 UTC +00:00], ["date", Mon, 03 Mar 2008], ["pdf", "CV_-_Ade_Oladejo.pdf"], ["title", "ffgfgg"], ["updated_at", Mon, 02 Dec 2013 03:10:09 UTC +00:00]]
+  [1m[35m (230.0ms)[0m  commit transaction
+Redirected to http://cheamcroquet-50834.euw1.actionbox.io/admin/newsletters/2
+Completed 302 Found in 293ms (ActiveRecord: 231.2ms)
+
+
+Started GET "/admin/newsletters/2" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+Processing by Admin::NewslettersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1[0m
+  [1m[35mNewsletter Load (0.2ms)[0m  SELECT "newsletters".* FROM "newsletters" WHERE "newsletters"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = 'Newsletter' AND "active_admin_comments"."resource_id" = '2' AND "active_admin_comments"."namespace" = 'admin'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = 'Newsletter' AND "active_admin_comments"."resource_id" = '2' AND "active_admin_comments"."namespace" = 'admin'
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/show.html.arb (73.6ms)
+Completed 200 OK in 81ms (Views: 76.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:09 +0000
+
+
+Started GET "/admin/newsletters" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+Processing by Admin::NewslettersController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "newsletters"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mNewsletter Load (0.2ms)[0m  SELECT "newsletters".* FROM "newsletters" ORDER BY "newsletters"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/index.html.arb (93.7ms)
+Completed 200 OK in 104ms (Views: 97.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:17 +0000
+
+
+Started GET "/admin/newsletters/new" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+Processing by Admin::NewslettersController#new as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/new.html.arb (102.6ms)
+Completed 200 OK in 109ms (Views: 106.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:19 +0000
+
+
+Started GET "/admin/newsletters/new" for 131.227.33.173 at 2013-12-02 03:10:39 +0000
+Processing by Admin::NewslettersController#new as HTML
+  [1m[35mAdminUser Load (0.3ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/new.html.arb (51.7ms)
+Completed 200 OK in 59ms (Views: 55.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/print.css?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:40 +0000
+
+
+Started GET "/admin/newsletters" for 131.227.33.173 at 2013-12-02 03:10:54 +0000
+Processing by Admin::NewslettersController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "newsletters"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "newsletters" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters" ORDER BY "newsletters"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/index.html.arb (108.1ms)
+Completed 200 OK in 119ms (Views: 111.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:55 +0000
+
+
+Started GET "/admin/newsletters/new" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+Processing by Admin::NewslettersController#new as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/new.html.arb (98.0ms)
+Completed 200 OK in 105ms (Views: 102.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:10:59 +0000
+
+
+Started POST "/admin/newsletters" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+Processing by Admin::NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dkUoxdlumFOSF90aDpv3Gp83HfASheBU4RLdkc8qvf0=", "newsletter"=>{"title"=>"sdddd", "date(1i)"=>"2009", "date(2i)"=>"2", "date(3i)"=>"3", "pdf"=>#<ActionDispatch::Http::UploadedFile:0x007f5620280b18 @tempfile=#<Tempfile:/tmp/RackMultipart20131202-1140-lkywz5>, @original_filename="CV - Adekunle Oladejo.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"newsletter[pdf]\"; filename=\"CV - Adekunle Oladejo.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Create Newsletter"}
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1
+Unpermitted parameters: utf8, authenticity_token, commit
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "newsletters" ("created_at", "date", "pdf", "title", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 02 Dec 2013 03:11:19 UTC +00:00], ["date", Tue, 03 Feb 2009], ["pdf", "CV_-_Adekunle_Oladejo.pdf"], ["title", "sdddd"], ["updated_at", Mon, 02 Dec 2013 03:11:19 UTC +00:00]]
+  [1m[36m (28.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://cheamcroquet-50834.euw1.actionbox.io/admin/newsletters/3
+Completed 302 Found in 128ms (ActiveRecord: 29.2ms)
+
+
+Started GET "/admin/newsletters/3" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+Processing by Admin::NewslettersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = 1 ORDER BY "admin_users"."id" ASC LIMIT 1
+  [1m[36mNewsletter Load (0.2ms)[0m  [1mSELECT "newsletters".* FROM "newsletters" WHERE "newsletters"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = 'Newsletter' AND "active_admin_comments"."resource_id" = '3' AND "active_admin_comments"."namespace" = 'admin'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = 'Newsletter' AND "active_admin_comments"."resource_id" = '3' AND "active_admin_comments"."namespace" = 'admin'[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/bundler/gems/active_admin-6e834455884c/app/views/active_admin/resource/show.html.arb (50.2ms)
+Completed 200 OK in 58ms (Views: 53.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:19 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:11:31 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:11:32 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:49 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:50 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:52 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:11:53 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:11:53 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:05 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.6ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 35.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 90.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:14:06 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 33.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:08 +0000
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:11 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:12 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:12 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:12 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:12 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:12 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:12 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 87ms (Views: 85.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:14 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:15 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 33.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:16 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:17 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:17 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:17 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:17 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:17 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:17 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:17 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:18 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:19 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.2ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:20 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:14:23 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:24 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:25 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 30.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:25 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:26 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:27 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:27 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:28 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 30.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:14:31 +0000
+
+
+Started GET "/" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CheamCroquetController#home as HTML
+  Rendered cheam_croquet/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 316ms (Views: 293.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:12 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:19:13 +0000
+
+
+Started GET "/club_matters" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+Processing by CheamCroquetController#club_matters as HTML
+  Rendered cheam_croquet/club_matters.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/club_matters" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+Processing by CheamCroquetController#club_matters as HTML
+  Rendered cheam_croquet/club_matters.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:15 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:16 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:16 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:16 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:16 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:19:16 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:16 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:16 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 34.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 32.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:18 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:19 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:19 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:19 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:19 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:19:19 +0000
+
+
+Started GET "/club_matters" for 131.227.33.173 at 2013-12-02 03:19:21 +0000
+Processing by CheamCroquetController#club_matters as HTML
+  Rendered cheam_croquet/club_matters.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 79ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/club_matters" for 131.227.33.173 at 2013-12-02 03:19:21 +0000
+Processing by CheamCroquetController#club_matters as HTML
+  Rendered cheam_croquet/club_matters.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:21 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:22 +0000
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 03:19:32 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 03:19:32 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:32 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:19:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:19:33 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:20:49 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:49 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:50 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:25:50 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:50 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:50 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:50 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:25:50 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:25:50 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:29:15 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:29:16 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:39:53 +0000
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:01 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:02 +0000
+
+
+Started GET "/how_to_join" for 131.227.33.173 at 2013-12-02 03:40:04 +0000
+Processing by CheamCroquetController#how_to_join as HTML
+  Rendered cheam_croquet/how_to_join.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/how_to_join" for 131.227.33.173 at 2013-12-02 03:40:04 +0000
+Processing by CheamCroquetController#how_to_join as HTML
+  Rendered cheam_croquet/how_to_join.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:04 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:05 +0000
+
+
+Started GET "/programme" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+Processing by CheamCroquetController#programme as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered cheam_croquet/programme.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programme" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+Processing by CheamCroquetController#programme as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered cheam_croquet/programme.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:10 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:11 +0000
+
+
+Started GET "/how_to_get_there" for 131.227.33.173 at 2013-12-02 03:40:12 +0000
+Processing by CheamCroquetController#how_to_get_there as HTML
+  Rendered cheam_croquet/how_to_get_there.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/how_to_get_there" for 131.227.33.173 at 2013-12-02 03:40:12 +0000
+Processing by CheamCroquetController#how_to_get_there as HTML
+  Rendered cheam_croquet/how_to_get_there.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:13 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:40:14 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:40:14 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:15 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:40:17 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 32.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:40:18 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:44:49 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 77.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:44:50 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:44:52 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:46:57 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 32.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:46:57 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:46:57 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:46:57 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:46:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:46:58 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 81ms (Views: 78.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:21 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:49:22 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:17 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:50:18 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:08 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:09 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:09 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:09 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:51:09 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:51:09 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:51:09 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 03:54:06 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:06 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:06 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:06 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:06 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:54:07 +0000
+
+
+Started GET "/club_matters" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+Processing by CheamCroquetController#club_matters as HTML
+  Rendered cheam_croquet/club_matters.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/club_matters" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+Processing by CheamCroquetController#club_matters as HTML
+  Rendered cheam_croquet/club_matters.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:54:17 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:54:24 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 03:58:09 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 146ms (Views: 143.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:58:09 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:58:09 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 03:58:09 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 03:58:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:09 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 03:58:10 +0000
+
+
+Started GET "/how_to_join" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+Processing by CheamCroquetController#how_to_join as HTML
+  Rendered cheam_croquet/how_to_join.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/how_to_join" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+Processing by CheamCroquetController#how_to_join as HTML
+  Rendered cheam_croquet/how_to_join.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:58:33 +0000

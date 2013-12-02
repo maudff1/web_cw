@@ -10,6 +10,8 @@ CheamCroquet::Application.routes.draw do
   match '/how_to_get_there', :to => "cheam_croquet#how_to_get_there", via: [:get]
   match '/links_to_croquet_site', :to => "cheam_croquet#links_to_croquet_site", via: [:get]
   match '/newsletter', :to => "cheam_croquet#newsletter", via: [:get]
+  match '/club_matters', :to => "cheam_croquet#club_matters", via: [:get]
+  match '/what_you_need', :to => "cheam_croquet#what_you_need", via: [:get]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
