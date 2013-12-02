@@ -3,7 +3,7 @@ CheamCroquet::Application.routes.draw do
   ActiveAdmin.routes(self)
   resources :events
 
-  root :to => "cheam_croquet#home"
+  root :to => "cheam_croquet#index"
   match '/about_the_club', :to => "cheam_croquet#about_the_club", via:[:get]
   match '/how_to_join', :to => "cheam_croquet#how_to_join", via:[:get]
   match '/programme', :to => "cheam_croquet#programme", via: [:get]

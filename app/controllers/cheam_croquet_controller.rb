@@ -1,5 +1,5 @@
 class CheamCroquetController < ApplicationController
-  def home
+  def index
   	@Title = "home"
   end
   def about_the_club

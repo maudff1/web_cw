@@ -50228,3 +50228,2496 @@ Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 03:
 
 
 Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 03:58:33 +0000
+
+
+Started GET "/" for 131.227.33.173 at 2013-12-02 04:50:46 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CheamCroquetController#index as HTML
+  Rendered cheam_croquet/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 323ms (Views: 299.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:47 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:50:48 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:50:48 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:50:55 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:50:55 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:50:56 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:52:32 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 174ms (Views: 172.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:32 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:52:33 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:52:46 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:46 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:46 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:52:47 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:52:59 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 185ms (Views: 184.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:00 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:53:01 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:53:52 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 145ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:53:53 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:53:54 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:54:23 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 148ms (Views: 147.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:54:24 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 183ms (Views: 181.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:34 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:54:35 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:54:59 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (Invalid CSS after "  padding 0 auto": expected "{", was ";"
+  (in /home/action/CheamCroquet/app/assets/stylesheets/cheam_croquet.css.scss:55)):
+    2: <html>
+    3: <head>
+    4:   <title><%= base_Title %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/cheam_croquet.css.scss:55
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1052673984122826994_44730180'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.5ms)
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:55:12 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 121ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:55:13 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:27 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 04:57:28 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 135ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:00 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:01:01 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:01 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:01 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:01 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:01:01 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 99ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:10 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:01:11 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:11 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:11 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:01:11 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (49.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 143ms (Views: 142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:33 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:02:34 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:02:36 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:36 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:37 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:39 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:40 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:40 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:40 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:02:40 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:40 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:40 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:02:40 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 144ms (Views: 143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:03 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:03:04 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 136ms (Views: 135.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:32 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:33 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:03:33 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:33 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:33 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:33 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:33 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:03:33 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:03:56 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 122ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:57 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:03:58 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:58 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:58 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:03:58 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:03:58 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:04:11 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 93ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:11 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:11 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:12 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:04:33 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 208ms (Views: 206.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:34 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:35 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:35 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:35 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:35 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:35 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:35 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:35 +0000
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:49 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:50 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:50 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:50 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:50 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:50 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:50 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:50 +0000
+
+
+Started GET "/how_to_join" for 131.227.33.173 at 2013-12-02 05:04:51 +0000
+Processing by CheamCroquetController#how_to_join as HTML
+  Rendered cheam_croquet/how_to_join.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/how_to_join" for 131.227.33.173 at 2013-12-02 05:04:51 +0000
+Processing by CheamCroquetController#how_to_join as HTML
+  Rendered cheam_croquet/how_to_join.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:52 +0000
+
+
+Started GET "/programme" for 131.227.33.173 at 2013-12-02 05:04:53 +0000
+Processing by CheamCroquetController#programme as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered cheam_croquet/programme.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 87.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programme" for 131.227.33.173 at 2013-12-02 05:04:53 +0000
+Processing by CheamCroquetController#programme as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered cheam_croquet/programme.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:53 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:53 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:53 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+
+
+Started GET "/how_to_get_there" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+Processing by CheamCroquetController#how_to_get_there as HTML
+  Rendered cheam_croquet/how_to_get_there.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/how_to_get_there" for 131.227.33.173 at 2013-12-02 05:04:54 +0000
+Processing by CheamCroquetController#how_to_get_there as HTML
+  Rendered cheam_croquet/how_to_get_there.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:55 +0000
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links_to_croquet_site" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+Processing by CheamCroquetController#links_to_croquet_site as HTML
+  Rendered cheam_croquet/links_to_croquet_site.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:56 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:57 +0000
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 05:04:57 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[35mNewsletter Load (0.3ms)[0m  SELECT "newsletters".* FROM "newsletters"
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 34.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/newsletter" for 131.227.33.173 at 2013-12-02 05:04:57 +0000
+Processing by CheamCroquetController#newsletter as HTML
+  [1m[36mNewsletter Load (0.3ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+  Rendered cheam_croquet/newsletter.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:57 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:57 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+
+
+Started GET "/club_matters" for 131.227.33.173 at 2013-12-02 05:04:58 +0000
+Processing by CheamCroquetController#club_matters as HTML
+  Rendered cheam_croquet/club_matters.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/club_matters" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+Processing by CheamCroquetController#club_matters as HTML
+  Rendered cheam_croquet/club_matters.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:04:59 +0000
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/what_you_need" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+Processing by CheamCroquetController#what_you_need as HTML
+DEPRECATION WARNING: The file /home/action/CheamCroquet/app/views/cheam_croquet/what_you_need did not specify a template handler. The default is currently ERB, but will change to RAW in the future. (called from realtime at /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296)
+  Rendered cheam_croquet/what_you_need within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:01 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:05:02 +0000
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_the_club" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+Processing by CheamCroquetController#about_the_club as HTML
+  Rendered cheam_croquet/about_the_club.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/events.css?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/cheam_croquet.css?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:08 +0000
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:09 +0000
+
+
+Started GET "/assets/cheam_croquet.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:09 +0000
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:09 +0000
+
+
+Started GET "/assets/active_admin.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:09 +0000
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:09 +0000
+
+
+Started GET "/assets/logo.png" for 131.227.33.173 at 2013-12-02 05:05:09 +0000
+
+
+Started GET "/assets/events.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 131.227.33.173 at 2013-12-02 05:05:09 +0000
+
+
+Started GET "/assets/header_sports_croquet.jpg" for 131.227.33.173 at 2013-12-02 05:05:09 +0000

@@ -46,24 +46,27 @@ h1 {
   background-color: #666;
   height: 40px;
   border-radius: 5px;
-  margin:20px;
+  margin:0 0 20px 0;
   }
 
 .navigation ul {
   list-style: none;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 
 
 .navigation li {
   float: left;
-  display:inline;
+  display:inline; 
+  padding: 0;
+  margin: 0 10px;
 }
  .navigation a:link, .navigation a:visited  {
   color: #FFF;
   display: inline-block;
-  padding: 10px 25px;
+  padding: 10px 10px;
   height: 40%;
 }
 
