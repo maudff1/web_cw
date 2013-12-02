@@ -1,0 +1,27 @@
+<h1>Club Calendar <%= Time.now.year %></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Logo</th>
+      <th>Title</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+<tbody>
+ <% @events.each do |event| %>
+    <% if event.date.future? | event.date.today? %>
+      <tr>
+        <td><%= event.date %></td>
+        <td><%= event.logo %></td>
+        <td><%= event.title %></td>
+        <% end %>
+        <% end %>
+  </tbody>
+</table>
+
+
+  

@@ -1,0 +1,86 @@
+// Place all the styles related to the CheamCroquet controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+img.mainHeader
+{
+float: top;
+padding-right:0px;
+ margin: 15px;
+}
+
+.mainContent {
+  border: 1px solid;
+  border-radius:5px;
+  background-color: #c7bd54;
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 90px;
+  text-align: center;
+}
+
+
+header.mainHeader {
+  text-align: center;
+  padding:0px;
+  }
+h1 {
+  color: #CF5C3F;
+}
+
+.body {
+  margin: 0 auto;
+  clear: both;
+  width: 95%;
+  background-color: #899167;
+}
+
+.mainHeader {
+   background-image: url('/assets/header_sports_croquet.jpg');
+}
+
+ .navigation nav {
+  background-color: #666;
+  height: 40px;
+  border-radius: 5px;
+  margin:20px;
+  }
+
+.navigation ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+
+
+.navigation li {
+  float: left;
+  display:inline;
+}
+ .navigation a:link, .navigation a:visited  {
+  color: #FFF;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 40%;
+}
+
+.navigation a:hover, .navigation a:active, .navigation .active a:link, .navigation .active a:visited {
+  background: #CF5C3F;
+ text-shadow:none;
+  border-radius: 5px;
+}
+
+p {
+  line-height: 20px;
+}
+
+
+ 
+
+
+
+
+
